@@ -1,0 +1,5 @@
+x= c(10, 20, 30, 25, 9, 26)
+print("trie un vecteur avec ordre croissant")
+print(sort(x))
+print("trie un vecteur avec ordre decroissant")
+print(sort(x,decreasing=TRUE))
