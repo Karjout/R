@@ -5,7 +5,7 @@ print(paste("Type de airquality : ",class(airquality)))
 
 #Q2 : Dimensions du dataset
 
-dimensions <- dim(airquality)
+dimensions <- dim(aigitrquality)
 print(dimensions)
 
 #Q3 : Valeurs manquantes NA
