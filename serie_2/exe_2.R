@@ -1,6 +1,6 @@
 #Exercice 2 : 
 
-#Q1 : sous-ensemble de lignes du dataset où les valeurs d'ozone sont supérieures à 31 et les valeurs de température sont supérieures à 90 
+#Q1 : sous-ensemble de lignes du dataset oï¿½ les valeurs d'ozone sont supï¿½rieures ï¿½ 31 et les valeurs de tempï¿½rature sont supï¿½rieures ï¿½ 90 
 
 Arirqua_No_Na[(Arirqua_No_Na$Ozone > 31 & Arirqua_No_Na$Temp > 90),]
 
@@ -13,16 +13,16 @@ for (i in 1:6) {
 }
 print(moy_col)
 
-#Q3 : Apply pour calculer l'écart type de chaque colonne du dataset
+#Q3 : Apply pour calculer l'ï¿½cart type de chaque colonne du dataset
 ecart_type = apply(airquality, 2, sd, na.rm = TRUE) # sd = standard deviation 
 print(ecart_type)
 
-#Q4 : Calculez la moyenne de « Ozone » pour chaque mois dans le dataset et créez un vecteur contenant les moyennes mensuelles (exclu NA)
+#Q4 : Calculez la moyenne de ï¿½ Ozone ï¿½ pour chaque mois dans le dataset et crï¿½ez un vecteur contenant les moyennes mensuelles (exclu NA)
 
 Moyen_Oz = tapply(airquality$Ozone, airquality$Month, mean, na.rm = TRUE)
 print(Moyen_Oz)
 
-#Q5 : L'échantillon aléatoire de 5 lignes du dataset 
+#Q5 : L'ï¿½chantillon alï¿½atoire de 5 lignes du dataset 
 
 echantillon_randomly = airquality[sample(nrow(airquality), 5), ]
 print(echantillon_randomly)

@@ -1,6 +1,7 @@
 #Exercice 1 : 
 
 #Q1 : Type du dataset 
+package(airquality)
 print(paste("Type de airquality : ",class(airquality)))
 
 #Q2 : Dimensions du dataset
