@@ -1,0 +1,10 @@
+#exe 9
+print("first 10 lettres in lowercase")
+t =head(letters,10)
+print(t)
+print("last 10 letters in UPERCASE")
+l=tail(LETTERS,10)
+print(l)
+print("letters btewen 22 & 44")
+b= tail(LETTERS[22:24])
+print(b)
