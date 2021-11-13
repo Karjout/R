@@ -1,0 +1,10 @@
+#exe 17
+matr1= matrix(1:20,nrow = 5, ncol = 4)
+print(matr)
+cells = c(1,2,3,4,5,6,7,8,9)
+cnames = c ("cell1","cell2","cell3")
+nrows =  c("Row 1","Row 2","Row 3")
+matr2 = matrix(cells,nrow=3,ncol =3,byrow = TRUE,dimnames=list(nrows,cnames))
+print(matr2)
+matr3 = matrix(cells,nrow=3,ncol =3,byrow = FALSE,dimnames=list(nrows,cnames))
+print(matr3)
