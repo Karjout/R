@@ -1,6 +1,7 @@
-matr_a <- matrix(1:40, ncol = 5) 
-data_f <- as.data.frame(matr_a)
-colnames(data_f) <- paste("variable_", 1:ncol(data_f))
-rownames(data_f) <- paste("id_", 1:nrow(data_f))
-print(data_f)
 
+matr = matrix(1:20,ncol = 4)
+data_ = as.data.frame(matr)
+
+colnames(data_)= paste("var_",1:ncol(data_))
+rownames(data_)= paste("id_",1:nrow(data_))
+print(data_)
