@@ -1,7 +1,11 @@
 
-matr = matrix(1:20,ncol = 4)
-data_ = as.data.frame(matr)
+#exe7 
 
-colnames(data_)= paste("var_",1:ncol(data_))
-rownames(data_)= paste("id_",1:nrow(data_))
-print(data_)
+matr  = matrix(1:40,ncol =4)
+df = data.frame(matr)
+
+colnames(df) = paste("var_",1:ncol(df))
+row.names(df) = paste("id_",1:nrow(df))
+
+
+print(df)
